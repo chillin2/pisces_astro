@@ -10,6 +10,13 @@ return {
   --   end,
   -- },
   {
+    "preservim/tagbar",
+    cmd = { "TagbarToggle" },
+    keys = {
+      { "<F8>", "<cmd>TagbarToggle<cr>", desc = "TagbarToggle" },
+    },
+  },
+  {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
     opts = {},
