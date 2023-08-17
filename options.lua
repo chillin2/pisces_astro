@@ -7,6 +7,13 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    fencs = { "cp949", "utf-8", "ucs-bom" },
+    shell = "fish",
+    cindent = true,
+    autoindent = true,
+    tabstop = 4,
+    expandtab = true,
+    shiftwidth = 4,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
