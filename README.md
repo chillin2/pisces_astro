@@ -7,10 +7,12 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 #### Make a backup of your current nvim and shared folder
 
 ```shell
+#Backup
 mv ~/.config/nvim ~/.config/nvim.bak
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
-or
+
+#Remove
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 rm -rf ~/.cache/nvim
