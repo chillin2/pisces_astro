@@ -171,7 +171,7 @@ SpacesInLineCommentPrefix:
   Maximum: -1
 SpacesInParentheses: true
 SpacesInSquareBrackets: true
-SpaceBeforeSquareBrackets: true
+SpaceBeforeSquareBrackets: false
 BitFieldColonSpacing: Both
 Standard: Latest
 StatementAttributeLikeMacros:
