@@ -33,11 +33,6 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<leader>a"] = { "<cmd>echo 'Hello world!'<cr>", desc = "Say hello world" },
-
-    ["<leader>s"] = { name = "Split" },
-    -- Split window
-    ["<leader>ss"] = { ":split<Return><C-w>w", desc = "split window" },
-    ["<leader>sv"] = { ":vsplit<Return><C-w>w", desc = "vsplit window" },
   },
   t = {
     -- setting a mapping to false will disable it
