@@ -166,7 +166,7 @@ return {
             initial_mode = "normal",
           }
         end,
-        desc = "Open File Browser with the path of the current buffer",
+        desc = "Open File Browser with the path of the config folder",
       },
       -- {
       --   ";c",
