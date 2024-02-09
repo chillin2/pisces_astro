@@ -22,6 +22,8 @@ rm -rf ~/.cache/nvim
 
 ```shell
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+
+git clone https://github.com/AstroNvim/AstroNvim $env:LOCALAPPDATA\nvim
 ```
 
 #### Create a new user repository from this template
@@ -32,6 +34,8 @@ You can also just clone this repository directly if you do not want to track you
 
 ```shell
 git clone https://github.com/chillin2/pisces_astro.git ~/.config/nvim/lua/user
+
+git clone https://github.com/chillin2/pisces_astro.git $env:LOCALAPPDATA\nvim\lua\user
 ```
 
 #### Copy .clang-format to your project root
